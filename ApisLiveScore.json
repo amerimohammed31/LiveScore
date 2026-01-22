@@ -1,7 +1,7 @@
 {
   "CONFIG": {
-    "API_BASE_URL": "https://apifootball-si5v.onrender.com/match-today",
-    "STANDINGS_URL": "https://apifootball-si5v.onrender.com/standings"
+    "API_BASE_URL": "",
+    "STANDINGS_URL": ""
   },
   "CONTINENT_LOGOS": {
     "europe": "https://flagcdn.com/w320/eu.png",
@@ -12,8 +12,6 @@
     "oceania": "https://flagcdn.com/w320/oc.png"
   },
   "LEAGUES": {
-    "ligue-des-champions-uefa": { "key": "ligue-des-champions-uefa", "name": "UEFA Champions League", "logo": "https://flagcdn.com/w160/eu.png", "continent": "europe", "url": "https://www.footmercato.net/classement/ligue-des-champions-uefa" },
-
     "england-premier-league": { "key": "england-premier-league", "name": "England - Premier League", "logo": "https://flagcdn.com/w160/gb-eng.png", "continent": "europe", "url": "https://www.footmercato.net/classement/angleterre/premier-league" },
     "england-championship": { "key": "england-championship", "name": "England - Championship", "logo": "https://flagcdn.com/w160/gb-eng.png", "continent": "europe", "url": "https://www.footmercato.net/classement/angleterre/championship" },
     "england-league-one": { "key": "england-league-one", "name": "England - League One", "logo": "https://flagcdn.com/w160/gb-eng.png", "continent": "europe", "url": "https://www.footmercato.net/classement/angleterre/league-one" },
@@ -32,25 +30,43 @@
     "france-ligue-2": { "key": "france-ligue-2", "name": "France - Ligue 2", "logo": "https://flagcdn.com/w160/fr.png", "continent": "europe", "url": "https://www.footmercato.net/classement/france/ligue-2" },
 
     "portugal-primeira-liga": { "key": "portugal-primeira-liga", "name": "Portugal - Primeira Liga", "logo": "https://flagcdn.com/w160/pt.png", "continent": "europe", "url": "https://www.footmercato.net/classement/portugal/primeira-liga" },
+    "portugal-liga-2": { "key": "portugal-liga-2", "name": "Portugal - Segunda Liga", "logo": "https://flagcdn.com/w160/pt.png", "continent": "europe", "url": "https://www.footmercato.net/classement/portugal/segunda-liga" },
 
     "netherlands-eredivisie": { "key": "netherlands-eredivisie", "name": "Netherlands - Eredivisie", "logo": "https://flagcdn.com/w160/nl.png", "continent": "europe", "url": "https://www.footmercato.net/classement/pays-bas/eredivisie" },
+    "netherlands-eerste-divisie": { "key": "netherlands-eerste-divisie", "name": "Netherlands - Eerste Divisie", "logo": "https://flagcdn.com/w160/nl.png", "continent": "europe", "url": "https://www.footmercato.net/classement/pays-bas/eerste-divisie" },
+
+    "belgium-pro-league": { "key": "belgium-pro-league", "name": "Belgium - Pro League", "logo": "https://flagcdn.com/w160/be.png", "continent": "europe", "url": "https://www.footmercato.net/classement/belgique/pro-league" },
+    "belgium-challenger-pro-league": { "key": "belgium-challenger-pro-league", "name": "Belgium - Challenger Pro League", "logo": "https://flagcdn.com/w160/be.png", "continent": "europe", "url": "https://www.footmercato.net/classement/belgique/challenger-pro-league" },
 
     "switzerland-super-league": { "key": "switzerland-super-league", "name": "Switzerland - Super League", "logo": "https://flagcdn.com/w160/ch.png", "continent": "europe", "url": "https://www.footmercato.net/classement/suisse/super-league" },
+    "switzerland-challenge-league": { "key": "switzerland-challenge-league", "name": "Switzerland - Challenge League", "logo": "https://flagcdn.com/w160/ch.png", "continent": "europe", "url": "https://www.footmercato.net/classement/suisse/challenge-league" },
 
     "austria-bundesliga": { "key": "austria-bundesliga", "name": "Austria - Bundesliga", "logo": "https://flagcdn.com/w160/at.png", "continent": "europe", "url": "https://www.footmercato.net/classement/autriche/bundesliga" },
+
+    "denmark-superliga": { "key": "denmark-superliga", "name": "Denmark - Superliga", "logo": "https://flagcdn.com/w160/dk.png", "continent": "europe", "url": "https://www.footmercato.net/classement/danemark/superliga" },
+
+    "norway-eliteserien": { "key": "norway-eliteserien", "name": "Norway - Eliteserien", "logo": "https://flagcdn.com/w160/no.png", "continent": "europe", "url": "https://www.footmercato.net/classement/norvege/eliteserien" },
 
     "sweden-allsvenskan": { "key": "sweden-allsvenskan", "name": "Sweden - Allsvenskan", "logo": "https://flagcdn.com/w160/se.png", "continent": "europe", "url": "https://www.footmercato.net/classement/suede/allsvenskan" },
 
     "algeria-ligue-1": { "key": "algeria-ligue-1", "name": "Algeria - Ligue 1", "logo": "https://flagcdn.com/w160/dz.png", "continent": "africa", "url": "https://www.footmercato.net/classement/algerie/ligue-1" },
     "tunisia-ligue-1-pro": { "key": "tunisia-ligue-1-pro", "name": "Tunisia - Ligue 1 Pro", "logo": "https://flagcdn.com/w160/tn.png", "continent": "africa", "url": "https://www.footmercato.net/classement/tunisie/ligue-1-pro" },
     "egyptian-premier-league": { "key": "egyptian-premier-league", "name": "Egypt - Premier League", "logo": "https://flagcdn.com/w160/eg.png", "continent": "africa", "url": "https://www.footmercato.net/classement/egypte/premier-league" },
+    "morocco-botola-pro": { "key": "morocco-botola-pro", "name": "Morocco - Botola Pro", "logo": "https://flagcdn.com/w160/ma.png", "continent": "africa", "url": "https://www.footmercato.net/classement/maroc/botola-pro" },
 
+    "usa-mls": { "key": "usa-mls", "name": "USA - MLS", "logo": "https://flagcdn.com/w160/us.png", "continent": "north-america", "url": "https://www.footmercato.net/classement/etats-unis/mls" },
     "mexico-liga-mx": { "key": "mexico-liga-mx", "name": "Mexico - Liga MX", "logo": "https://flagcdn.com/w160/mx.png", "continent": "north-america", "url": "https://www.footmercato.net/classement/mexique/liga-mx" },
+    "argentina-primera-division": { "key": "argentina-primera-division", "name": "Argentina - Primera Division", "logo": "https://flagcdn.com/w160/ar.png", "continent": "south-america", "url": "https://www.footmercato.net/classement/argentine/primera-division" },
+    "brazil-serie-a": { "key": "brazil-serie-a", "name": "Brazil - Serie A", "logo": "https://flagcdn.com/w160/br.png", "continent": "south-america", "url": "https://www.footmercato.net/classement/bresil/serie-a" },
 
+    "japan-j1-league": { "key": "japan-j1-league", "name": "Japan - J1 League", "logo": "https://flagcdn.com/w160/jp.png", "continent": "asia", "url": "https://www.footmercato.net/classement/japon/j1-league" },
+    "japan-j2-league": { "key": "japan-j2-league", "name": "Japan - J2 League", "logo": "https://flagcdn.com/w160/jp.png", "continent": "asia", "url": "https://www.footmercato.net/classement/japon/j2-league" },
+    "south-korea-k-league-1": { "key": "south-korea-k-league-1", "name": "South Korea - K League 1", "logo": "https://flagcdn.com/w160/kr.png", "continent": "asia", "url": "https://www.footmercato.net/classement/coree-du-sud/k-league-1" },
     "china-super-league": { "key": "china-super-league", "name": "China - Super League", "logo": "https://flagcdn.com/w160/cn.png", "continent": "asia", "url": "https://www.footmercato.net/classement/chine/chinese-super-league" },
-
     "saudi-pro-league": { "key": "saudi-pro-league", "name": "Saudi Arabia - Pro League", "logo": "https://flagcdn.com/w160/sa.png", "continent": "asia", "url": "https://www.footmercato.net/classement/arabie-saoudite/saudi-pro-league?partial=1" },
+    "qatar-stars-league": { "key": "qatar-stars-league", "name": "Qatar - Stars League", "logo": "https://flagcdn.com/w160/qa.png", "continent": "asia", "url": "https://www.footmercato.net/classement/qatar/stars-league" },
 
-    "australia-a-league": { "key": "australia-a-league", "name": "Australia - A-League", "logo": "https://flagcdn.com/w160/au.png", "continent": "oceania", "url": "https://www.footmercato.net/classement/australie/a-league" }
+    "australia-a-league": { "key": "australia-a-league", "name": "Australia - A-League", "logo": "https://flagcdn.com/w160/au.png", "continent": "oceania", "url": "https://www.footmercato.net/classement/australie/a-league" },
+    "australia-w-league": { "key": "australia-w-league", "name": "Australia - W-League", "logo": "https://flagcdn.com/w160/au.png", "continent": "oceania", "url": "https://www.footmercato.net/classement/australie/w-league" }
   }
 }
