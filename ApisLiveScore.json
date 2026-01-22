@@ -4,8 +4,8 @@
     "STANDINGS_URL": "https://apifootball-si5v.onrender.com/standings"
   },
   "CONTINENTS": [
-    { "title": "UEFA Champions League", "key": "champions", "logo": "../../assets/images/coupe-du-monde.png" },
-    { "title": "UEFA Europa League", "key": "europa", "logo": "../../assets/images/coupe-du-monde.png" },
+    { "title": "UEFA Champions League", "key": "champions", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/ligue-des-champions-uefa.png" },
+    { "title": "UEFA Europa League", "key": "europa", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/uefa-europa-league.png" },
     { "title": "UEFA Conference League", "key": "conference", "logo": "../../assets/images/coupe-du-monde.png" },
     { "title": "UEFA Super Cup", "key": "supercup", "logo": "../../assets/images/coupe-du-monde.png" },
     { "title": "FIFA World Cup", "key": "worldcup", "logo": "../../assets/images/coupe-du-monde.png" },
@@ -14,7 +14,7 @@
     { "title": "FIFA Confederations Cup", "key": "confedcup", "logo": "../../assets/images/coupe-du-monde.png" },
     { "title": "UEFA Euro", "key": "eurocup", "logo": "../../assets/images/coupe-du-monde.png" },
     { "title": "Copa America", "key": "copaamerica", "logo": "../../assets/images/coupe-du-monde.png" },
-    { "title": "Africa Cup of Nations", "key": "afcon", "logo": "../../assets/images/coupe-du-monde.png" },
+    { "title": "Africa Cup of Nations", "key": "afcon", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-dafrique-des-nations.png" },
     { "title": "AFC Asian Cup", "key": "asiacup", "logo": "../../assets/images/coupe-du-monde.png" },
     { "title": "CONCACAF Gold Cup", "key": "goldcup", "logo": "../../assets/images/coupe-du-monde.png" },
     { "title": "Europe", "key": "europe", "logo": "../../assets/images/coupe-du-monde.png" },
