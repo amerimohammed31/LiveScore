@@ -3,16 +3,32 @@
     "API_BASE_URL": "https://apifootball-si5v.onrender.com/match-today",
     "STANDINGS_URL": "https://apifootball-si5v.onrender.com/standings"
   },
-  "CONTINENT_LOGOS": {
-    "europe": "https://flagcdn.com/w320/eu.png",
-    "africa": "https://flagcdn.com/w320/af.png",
-    "asia": "https://flagcdn.com/w320/as.png",
-    "north-america": "https://flagcdn.com/w160/us.png",
-    "south-america": "https://flagcdn.com/w160/us.png",
-    "oceania": "https://flagcdn.com/w320/oc.png"
-  },
+  "CONTINENTS": [
+    { "title": "UEFA Champions League", "key": "champions", "logo": "https://flagcdn.com/w160/eu.png" },
+    { "title": "UEFA Europa League", "key": "europa", "logo": "https://flagcdn.com/w160/eu.png" },
+    { "title": "UEFA Conference League", "key": "conference", "logo": "https://flagcdn.com/w160/eu.png" },
+    { "title": "UEFA Super Cup", "key": "supercup", "logo": "https://flagcdn.com/w160/eu.png" },
+
+    { "title": "FIFA World Cup", "key": "worldcup", "logo": "https://flagcdn.com/w320/world.png" },
+    { "title": "FIFA Club World Cup", "key": "clubworldcup", "logo": "https://flagcdn.com/w320/world.png" },
+    { "title": "UEFA Nations League", "key": "nationsleague", "logo": "https://flagcdn.com/w160/eu.png" },
+    { "title": "FIFA Confederations Cup", "key": "confedcup", "logo": "https://flagcdn.com/w320/world.png" },
+
+    { "title": "UEFA Euro", "key": "eurocup", "logo": "https://flagcdn.com/w160/eu.png" },
+    { "title": "Copa America", "key": "copaamerica", "logo": "https://flagcdn.com/w160/ar.png" },
+    { "title": "Africa Cup of Nations", "key": "afcon", "logo": "https://flagcdn.com/w160/af.png" },
+    { "title": "AFC Asian Cup", "key": "asiacup", "logo": "https://flagcdn.com/w160/as.png" },
+    { "title": "CONCACAF Gold Cup", "key": "goldcup", "logo": "https://flagcdn.com/w160/us.png" },
+
+    { "title": "Europe", "key": "europe", "logo": "https://flagcdn.com/w320/eu.png" },
+    { "title": "Africa", "key": "africa", "logo": "https://flagcdn.com/w320/af.png" },
+    { "title": "Asia", "key": "asia", "logo": "https://flagcdn.com/w320/as.png" },
+    { "title": "North America", "key": "north-america", "logo": "https://flagcdn.com/w160/us.png" },
+    { "title": "South America", "key": "south-america", "logo": "https://flagcdn.com/w160/us.png" },
+    { "title": "Oceania", "key": "oceania", "logo": "https://flagcdn.com/w320/oc.png" }
+  ],
   "LEAGUES": {
-    "ligue-des-champions-uefa": {"key":"ligue-des-champions-uefa","name":"UEFA Champions League","logo":"https://flagcdn.com/w160/eu.png","continent":"europe"},
+    "ligue-des-champions-uefa":{"key":"ligue-des-champions-uefa","name":"UEFA Champions League","logo":"https://flagcdn.com/w160/eu.png","continent":"europe"},
     "england-premier-league":{"key":"england-premier-league","name":"England - Premier League","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
     "england-championship":{"key":"england-championship","name":"England - Championship","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
     "england-league-one":{"key":"england-league-one","name":"England - League One","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
