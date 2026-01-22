@@ -12,7 +12,7 @@
     { "title": "South America", "key": "south-america", "logo": "https://flagcdn.com/w160/us.png" },
     { "title": "Oceania", "key": "oceania", "logo": "https://flagcdn.com/w160/au.png" }
   ],
-  "LEAGUES": {
+  "WORLD_TOURNAMENTS": {
     "FIFA-World-Cup-2026": {
       "key": "fifa-world-cup-2026",
       "name": "FIFA World Cup 2026",
@@ -60,7 +60,9 @@
       "name": "AFC Champions League",
       "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/afc-champions-league-6628b8324aed8.png",
       "continent": "World_Tournaments"
-    },
+    }
+  },
+  "LOCAL_LEAGUES": {
     "england-premier-league": {
       "key": "england-premier-league",
       "name": "England - Premier League",
@@ -229,115 +231,5 @@
       "logo": "https://flagcdn.com/w160/nz.png",
       "continent": "oceania"
     }
-  },
-  "WORLD_CUP_GROUPS": [
-    {
-      "name": "Group A",
-      "teams": [
-        { "position": 1, "team": "MEX", "logo": "https://flagcdn.com/w320/mx.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "RSA", "logo": "https://flagcdn.com/w320/za.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "KOR", "logo": "https://flagcdn.com/w320/kr.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "UEFAD", "logo": "https://flagcdn.com/w320/eu.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group B",
-      "teams": [
-        { "position": 1, "team": "CAN", "logo": "https://flagcdn.com/w320/ca.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "SUI", "logo": "https://flagcdn.com/w320/ch.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "QAT", "logo": "https://flagcdn.com/w320/qa.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "UEFAA", "logo": "https://flagcdn.com/w320/eu.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group C",
-      "teams": [
-        { "position": 1, "team": "BRA", "logo": "https://flagcdn.com/w320/br.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "MAR", "logo": "https://flagcdn.com/w320/ma.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "SCO", "logo": "https://flagcdn.com/w320/gb-sct.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "HAI", "logo": "https://flagcdn.com/w320/ht.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group D",
-      "teams": [
-        { "position": 1, "team": "USA", "logo": "https://flagcdn.com/w320/us.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "PAR", "logo": "https://flagcdn.com/w320/py.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "AUS", "logo": "https://flagcdn.com/w320/au.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "UEFAC", "logo": "https://flagcdn.com/w320/eu.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group E",
-      "teams": [
-        { "position": 1, "team": "GER", "logo": "https://flagcdn.com/w320/de.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "ECU", "logo": "https://flagcdn.com/w320/ec.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "CIV", "logo": "https://flagcdn.com/w320/ci.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "CUR", "logo": "https://flagcdn.com/w320/cw.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group F",
-      "teams": [
-        { "position": 1, "team": "NED", "logo": "https://flagcdn.com/w320/nl.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "JPN", "logo": "https://flagcdn.com/w320/jp.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "TUN", "logo": "https://flagcdn.com/w320/tn.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "UEFAB", "logo": "https://flagcdn.com/w320/eu.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group G",
-      "teams": [
-        { "position": 1, "team": "BEL", "logo": "https://flagcdn.com/w320/be.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "IRN", "logo": "https://flagcdn.com/w320/ir.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "EGY", "logo": "https://flagcdn.com/w320/eg.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "NZL", "logo": "https://flagcdn.com/w320/nz.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group H",
-      "teams": [
-        { "position": 1, "team": "ESP", "logo": "https://flagcdn.com/w320/es.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "URU", "logo": "https://flagcdn.com/w320/uy.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "KSA", "logo": "https://flagcdn.com/w320/sa.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "CPV", "logo": "https://flagcdn.com/w320/cv.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group I",
-      "teams": [
-        { "position": 1, "team": "FRA", "logo": "https://flagcdn.com/w320/fr.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "SEN", "logo": "https://flagcdn.com/w320/sn.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "NOR", "logo": "https://flagcdn.com/w320/no.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "IC2", "logo": "https://flagcdn.com/w320/is.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group J",
-      "teams": [
-        { "position": 1, "team": "ARG", "logo": "https://flagcdn.com/w320/ar.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "AUT", "logo": "https://flagcdn.com/w320/at.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "DZ", "logo": "https://flagcdn.com/w320/dz.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "JOR", "logo": "https://flagcdn.com/w320/jo.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group K",
-      "teams": [
-        { "position": 1, "team": "POR", "logo": "https://flagcdn.com/w320/pt.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "COL", "logo": "https://flagcdn.com/w320/co.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "UZB", "logo": "https://flagcdn.com/w320/uz.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "IC1", "logo": "https://flagcdn.com/w320/is.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    },
-    {
-      "name": "Group L",
-      "teams": [
-        { "position": 1, "team": "ENG", "logo": "https://flagcdn.com/w320/gb-eng.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 2, "team": "CRO", "logo": "https://flagcdn.com/w320/hr.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 3, "team": "GHA", "logo": "https://flagcdn.com/w320/gh.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 },
-        { "position": 4, "team": "PAN", "logo": "https://flagcdn.com/w320/pa.png", "P":0,"W":0,"D":0,"L":0,"GF":0,"GA":0,"GD":0,"Pts":0 }
-      ]
-    }
-  ]
+  }
 }
