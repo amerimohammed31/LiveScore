@@ -3,156 +3,74 @@
     "API_BASE_URL": "https://apifootball-si5v.onrender.com/match-today",
     "STANDINGS_URL": "https://apifootball-si5v.onrender.com/standings"
   },
-
   "CONTINENTS": [
-    { "key": "international", "name": "International" },
-    { "key": "europe", "name": "Europe" },
-    { "key": "africa", "name": "Africa" },
-    { "key": "asia", "name": "Asia" },
-    { "key": "north-america", "name": "North America" },
-    { "key": "oceania", "name": "Oceania" }
+    { "title": "UEFA Champions League", "key": "ligue-des-champions-uefa", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/ligue-des-champions-uefa.png" },
+    { "title": "UEFA Europa League", "key": "uefa-europa-league", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/uefa-europa-league.png" },
+    { "title": "UEFA Conference League", "key": "uefa-europa-conference-league", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/uefa-europa-conference-league.png" },
+    { "title": "FIFA World Cup", "key": "", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/coupe-du-monde.png" },
+    { "title": "UEFA Nations League", "key": "uefa-nations-league", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/uefa-nations-league-662a073d98015.png" },
+    { "title": "Copa America", "key": "copa-america", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/copa-america-6628d521864ad.png" },
+    { "title": "Africa Cup of Nations", "key": "coupe-dafrique-des-nations", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-dafrique-des-nations.png" },
+    { "title": "AFC Asian Cup", "key": "afc-champions-league", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/afc-champions-league-6628b8324aed8.png" },
+    { "title": "Europe", "key": "europe", "logo": "https://flagcdn.com/w160/eu.png" },
+    { "title": "Africa", "key": "africa", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-dafrique-des-nations.png" },
+    { "title": "Asia", "key": "asia", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/afc-champions-league-6628b8324aed8.png" },
+    { "title": "North America", "key": "north-america", "logo": "https://flagcdn.com/w160/us.png" },
+    { "title": "South America", "key": "south-america", "logo": "https://flagcdn.com/w160/us.png" },
+    { "title": "Oceania", "key": "oceania", "logo": "https://flagcdn.com/w160/au.png" }
   ],
-
   "LEAGUES": {
-    "ligue-des-champions-uefa": {
-      "key": "ligue-des-champions-uefa",
-      "name": "UEFA Champions League",
-      "continent": "international"
-    },
-    "uefa-europa-league": {
-      "key": "uefa-europa-league",
-      "name": "UEFA Europa League",
-      "continent": "international"
-    },
-    "uefa-europa-conference-league": {
-      "key": "uefa-europa-conference-league",
-      "name": "UEFA Europa Conference League",
-      "continent": "international"
-    },
-    "uefa-nations-league": {
-      "key": "uefa-nations-league",
-      "name": "UEFA Nations League",
-      "continent": "international"
-    },
-    "copa-america": {
-      "key": "copa-america",
-      "name": "Copa America",
-      "continent": "international"
-    },
-    "coupe-dafrique-des-nations": {
-      "key": "coupe-dafrique-des-nations",
-      "name": "Africa Cup of Nations",
-      "continent": "international"
-    },
-    "afc-champions-league": {
-      "key": "afc-champions-league",
-      "name": "AFC Champions League",
-      "continent": "international"
-    },
-
-    "england-premier-league": {
-      "key": "england-premier-league",
-      "name": "Premier League",
-      "continent": "europe"
-    },
-    "spain-laliga": {
-      "key": "spain-laliga",
-      "name": "La Liga",
-      "continent": "europe"
-    },
-    "italy-serie-a": {
-      "key": "italy-serie-a",
-      "name": "Serie A",
-      "continent": "europe"
-    },
-    "italy-serie-b": {
-      "key": "italy-serie-b",
-      "name": "Serie B",
-      "continent": "europe"
-    },
-    "germany-bundesliga": {
-      "key": "germany-bundesliga",
-      "name": "Bundesliga",
-      "continent": "europe"
-    },
-    "germany-2-bundesliga": {
-      "key": "germany-2-bundesliga",
-      "name": "2. Bundesliga",
-      "continent": "europe"
-    },
-    "france-ligue-1": {
-      "key": "france-ligue-1",
-      "name": "Ligue 1",
-      "continent": "europe"
-    },
-    "france-ligue-2": {
-      "key": "france-ligue-2",
-      "name": "Ligue 2",
-      "continent": "europe"
-    },
-    "portugal-primeira-liga": {
-      "key": "portugal-primeira-liga",
-      "name": "Primeira Liga",
-      "continent": "europe"
-    },
-    "netherlands-eredivisie": {
-      "key": "netherlands-eredivisie",
-      "name": "Eredivisie",
-      "continent": "europe"
-    },
-    "switzerland-super-league": {
-      "key": "switzerland-super-league",
-      "name": "Super League",
-      "continent": "europe"
-    },
-    "austria-bundesliga": {
-      "key": "austria-bundesliga",
-      "name": "Austrian Bundesliga",
-      "continent": "europe"
-    },
-    "sweden-allsvenskan": {
-      "key": "sweden-allsvenskan",
-      "name": "Allsvenskan",
-      "continent": "europe"
-    },
-
-    "algeria-ligue-1": {
-      "key": "algeria-ligue-1",
-      "name": "Algerian Ligue 1",
-      "continent": "africa"
-    },
-    "tunisia-ligue-1-pro": {
-      "key": "tunisia-ligue-1-pro",
-      "name": "Tunisian Ligue 1",
-      "continent": "africa"
-    },
-    "egyptian-premier-league": {
-      "key": "egyptian-premier-league",
-      "name": "Egyptian Premier League",
-      "continent": "africa"
-    },
-
-    "china-super-league": {
-      "key": "china-super-league",
-      "name": "Chinese Super League",
-      "continent": "asia"
-    },
-    "saudi-pro-league": {
-      "key": "saudi-pro-league",
-      "name": "Saudi Pro League",
-      "continent": "asia"
-    },
-
-    "mexico-liga-mx": {
-      "key": "mexico-liga-mx",
-      "name": "Liga MX",
-      "continent": "north-america"
-    },
-
-    "australia-a-league": {
-      "key": "australia-a-league",
-      "name": "A-League",
-      "continent": "oceania"
-    }
+    "england-premier-league":{"key":"england-premier-league","name":"England - Premier League","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
+    "england-championship":{"key":"england-championship","name":"England - Championship","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
+    "england-league-one":{"key":"england-league-one","name":"England - League One","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
+    "england-league-two":{"key":"england-league-two","name":"England - League Two","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
+    "scotland-premiership":{"key":"scotland-premiership","name":"Scotland - Premiership","logo":"https://flagcdn.com/w160/gb-sct.png","continent":"europe"},
+    "germany-bundesliga":{"key":"germany-bundesliga","name":"Germany - Bundesliga","logo":"https://flagcdn.com/w160/de.png","continent":"europe"},
+    "germany-2-bundesliga":{"key":"germany-2-bundesliga","name":"Germany - 2. Bundesliga","logo":"https://flagcdn.com/w160/de.png","continent":"europe"},
+    "italy-serie-a":{"key":"italy-serie-a","name":"Italy - Serie A","logo":"https://flagcdn.com/w160/it.png","continent":"europe"},
+    "italy-serie-b":{"key":"italy-serie-b","name":"Italy - Serie B","logo":"https://flagcdn.com/w160/it.png","continent":"europe"},
+    "spain-laliga":{"key":"spain-laliga","name":"Spain - La Liga","logo":"https://flagcdn.com/w160/es.png","continent":"europe"},
+    "spain-segunda-division":{"key":"spain-segunda-division","name":"Spain - Segunda Division","logo":"https://flagcdn.com/w160/es.png","continent":"europe"},
+    "france-ligue-1":{"key":"france-ligue-1","name":"France - Ligue 1","logo":"https://flagcdn.com/w160/fr.png","continent":"europe"},
+    "france-ligue-2":{"key":"france-ligue-2","name":"France - Ligue 2","logo":"https://flagcdn.com/w160/fr.png","continent":"europe"},
+    "portugal-primeira-liga":{"key":"portugal-primeira-liga","name":"Portugal - Primeira Liga","logo":"https://flagcdn.com/w160/pt.png","continent":"europe"},
+    "portugal-liga-2":{"key":"portugal-liga-2","name":"Portugal - Segunda Liga","logo":"https://flagcdn.com/w160/pt.png","continent":"europe"},
+    "netherlands-eredivisie":{"key":"netherlands-eredivisie","name":"Netherlands - Eredivisie","logo":"https://flagcdn.com/w160/nl.png","continent":"europe"},
+    "netherlands-eerste-divisie":{"key":"netherlands-eerste-divisie","name":"Netherlands - Eerste Divisie","logo":"https://flagcdn.com/w160/nl.png","continent":"europe"},
+    "belgium-pro-league":{"key":"belgium-pro-league","name":"Belgium - Pro League","logo":"https://flagcdn.com/w160/be.png","continent":"europe"},
+    "belgium-challenger-pro-league":{"key":"belgium-challenger-pro-league","name":"Belgium - Challenger Pro League","logo":"https://flagcdn.com/w160/be.png","continent":"europe"},
+    "switzerland-super-league":{"key":"switzerland-super-league","name":"Switzerland - Super League","logo":"https://flagcdn.com/w160/ch.png","continent":"europe"},
+    "switzerland-challenge-league":{"key":"switzerland-challenge-league","name":"Switzerland - Challenge League","logo":"https://flagcdn.com/w160/ch.png","continent":"europe"},
+    "austria-bundesliga":{"key":"austria-bundesliga","name":"Austria - Bundesliga","logo":"https://flagcdn.com/w160/at.png","continent":"europe"},
+    "denmark-superliga":{"key":"denmark-superliga","name":"Denmark - Superliga","logo":"https://flagcdn.com/w160/dk.png","continent":"europe"},
+    "norway-eliteserien":{"key":"norway-eliteserien","name":"Norway - Eliteserien","logo":"https://flagcdn.com/w160/no.png","continent":"europe"},
+    "sweden-allsvenskan":{"key":"sweden-allsvenskan","name":"Sweden - Allsvenskan","logo":"https://flagcdn.com/w160/se.png","continent":"europe"},
+    "algeria-ligue-1":{"key":"algeria-ligue-1","name":"Algeria - Ligue 1","logo":"https://flagcdn.com/w160/dz.png","continent":"africa"},
+    "tunisia-ligue-1-pro":{"key":"tunisia-ligue-1-pro","name":"Tunisia - Ligue 1 Pro","logo":"https://flagcdn.com/w160/tn.png","continent":"africa"},
+    "egyptian-premier-league":{"key":"egyptian-premier-league","name":"Egypt - Premier League","logo":"https://flagcdn.com/w160/eg.png","continent":"africa"},
+    "morocco-botola-pro":{"key":"morocco-botola-pro","name":"Morocco - Botola Pro","logo":"https://flagcdn.com/w160/ma.png","continent":"africa"},
+    "ghana-premier-league":{"key":"ghana-premier-league","name":"Ghana - Premier League","logo":"https://flagcdn.com/w160/gh.png","continent":"africa"},
+    "senegal-ligue-1":{"key":"senegal-ligue-1","name":"Senegal - Ligue 1","logo":"https://flagcdn.com/w160/sn.png","continent":"africa"},
+    "nigeria-professional-league":{"key":"nigeria-professional-league","name":"Nigeria - Professional League","logo":"https://flagcdn.com/w160/ng.png","continent":"africa"},
+    "south-africa-dstv-premiership":{"key":"south-africa-dstv-premiership","name":"South Africa - DStv Premiership","logo":"https://flagcdn.com/w160/za.png","continent":"africa"},
+    "japan-j1-league":{"key":"japan-j1-league","name":"Japan - J1 League","logo":"https://flagcdn.com/w160/jp.png","continent":"asia"},
+    "japan-j2-league":{"key":"japan-j2-league","name":"Japan - J2 League","logo":"https://flagcdn.com/w160/jp.png","continent":"asia"},
+    "south-korea-k-league-1":{"key":"south-korea-k-league-1","name":"South Korea - K League 1","logo":"https://flagcdn.com/w160/kr.png","continent":"asia"},
+    "china-super-league":{"key":"china-super-league","name":"China - Super League","logo":"https://flagcdn.com/w160/cn.png","continent":"asia"},
+    "saudi-pro-league":{"key":"saudi-pro-league","name":"Saudi Arabia - Pro League","logo":"https://flagcdn.com/w160/sa.png","continent":"asia"},
+    "qatar-stars-league":{"key":"qatar-stars-league","name":"Qatar - Stars League","logo":"https://flagcdn.com/w160/qa.png","continent":"asia"},
+    "uae-pro-league":{"key":"uae-pro-league","name":"UAE - Pro League","logo":"https://flagcdn.com/w160/ae.png","continent":"asia"},
+    "iran-pro-league":{"key":"iran-pro-league","name":"Iran - Pro League","logo":"https://flagcdn.com/w160/ir.png","continent":"asia"},
+    "iraq-premier-league":{"key":"iraq-premier-league","name":"Iraq - Premier League","logo":"https://flagcdn.com/w160/iq.png","continent":"asia"},
+    "usa-mls":{"key":"usa-mls","name":"USA - MLS","logo":"https://flagcdn.com/w160/us.png","continent":"north-america"},
+    "mexico-liga-mx":{"key":"mexico-liga-mx","name":"Mexico - Liga MX","logo":"https://flagcdn.com/w160/mx.png","continent":"north-america"},
+    "canada-mls":{"key":"canada-mls","name":"Canada - MLS","logo":"https://flagcdn.com/w160/ca.png","continent":"north-america"},
+    "argentina-primera-division":{"key":"argentina-primera-division","name":"Argentina - Primera Division","logo":"https://flagcdn.com/w160/ar.png","continent":"south-america"},
+    "brazil-serie-a":{"key":"brazil-serie-a","name":"Brazil - Serie A","logo":"https://flagcdn.com/w160/br.png","continent":"south-america"},
+    "chile-primera-division":{"key":"chile-primera-division","name":"Chile - Primera Division","logo":"https://flagcdn.com/w160/cl.png","continent":"south-america"},
+    "uruguay-primera-division":{"key":"uruguay-primera-division","name":"Uruguay - Primera Division","logo":"https://flagcdn.com/w160/uy.png","continent":"south-america"},
+    "australia-a-league":{"key":"australia-a-league","name":"Australia - A-League","logo":"https://flagcdn.com/w160/au.png","continent":"oceania"},
+    "australia-w-league":{"key":"australia-w-league","name":"Australia - W-League","logo":"https://flagcdn.com/w160/au.png","continent":"oceania"},
+    "new-zealand-premiership":{"key":"new-zealand-premiership","name":"New Zealand - Premiership","logo":"https://flagcdn.com/w160/nz.png","continent":"oceania"}
   }
 }
