@@ -5,39 +5,14 @@
   },
 
   "CONTINENTS": [
-    { "title": "UEFA Champions League", "key": "ligue-des-champions-uefa", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/ligue-des-champions-uefa.png" },
-    { "title": "UEFA Europa League", "key": "uefa-europa-league", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/uefa-europa-league.png" },
-    { "title": "UEFA Conference League", "key": "uefa-europa-conference-league", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/uefa-europa-conference-league.png" },
-    { "title": "FIFA World Cup", "key": "", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/coupe-du-monde.png" },
-    { "title": "UEFA Nations League", "key": "uefa-nations-league", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/uefa-nations-league-662a073d98015.png" },
-    { "title": "Copa America", "key": "copa-america", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/copa-america-6628d521864ad.png" },
-    { "title": "Africa Cup of Nations", "key": "coupe-dafrique-des-nations", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-dafrique-des-nations.png" },
-    { "title": "AFC Asian Cup", "key": "afc-champions-league", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/afc-champions-league-6628b8324aed8.png" },
-
+    { "title": "World Tournaments", "key": "World_Tournaments", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-du-monde.png" },
     { "title": "Europe", "key": "europe", "logo": "https://flagcdn.com/w160/eu.png" },
     { "title": "Africa", "key": "africa", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-dafrique-des-nations.png" },
     { "title": "Asia", "key": "asia", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/afc-champions-league-6628b8324aed8.png" },
     { "title": "North America", "key": "north-america", "logo": "https://flagcdn.com/w160/us.png" },
     { "title": "South America", "key": "south-america", "logo": "https://flagcdn.com/w160/us.png" },
-    { "title": "Oceania", "key": "oceania", "logo": "https://flagcdn.com/w160/au.png" },
-
-    {
-      "title": "World Tournaments",
-      "key": "world-tournaments",
-      "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-du-monde.png",
-      "items": [
-        "FIFA World Cup",
-        "UEFA Euro",
-        "Copa America",
-        "Africa Cup of Nations",
-        "AFC Asian Cup",
-        "CONCACAF Gold Cup",
-        "OFC Nations Cup",
-        "UEFA Nations League"
-      ]
-    }
+    { "title": "Oceania", "key": "oceania", "logo": "https://flagcdn.com/w160/au.png" }
   ],
-
   "LEAGUES": {
     "england-premier-league":{"key":"england-premier-league","name":"England - Premier League","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
     "england-championship":{"key":"england-championship","name":"England - Championship","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
