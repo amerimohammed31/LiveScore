@@ -20,6 +20,10 @@
     { "title": "Oceania", "key": "oceania", "logo": "https://flagcdn.com/w160/au.png" }
   ],
   "LEAGUES": {
+    "ligue-des-champions-uefa":{"key":"ligue-des-champions-uefa","name":"UEFA Champions League","logo":"https://assets-fr.imgfoot.com/media/cache/150x150/ligue-des-champions-uefa.png","continent":"ligue-des-champions-uefa"},
+
+
+
     "england-premier-league":{"key":"england-premier-league","name":"England - Premier League","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
     "england-championship":{"key":"england-championship","name":"England - Championship","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
     "england-league-one":{"key":"england-league-one","name":"England - League One","logo":"https://flagcdn.com/w160/gb-eng.png","continent":"europe"},
