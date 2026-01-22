@@ -4,8 +4,8 @@
     "STANDINGS_URL": "https://apifootball-si5v.onrender.com/standings"
   },
   "CONTINENTS": [
-    { "title": "UEFA Champions League", "key": "champions", "logo": "./assets/images/coupe-du-monde.png" },
-    { "title": "UEFA Europa League", "key": "europa", "logo": "./assets/images/coupe-du-monde.png" },
+    { "title": "UEFA Champions League", "key": "champions", "logo": "../assets/images/coupe-du-monde.png" },
+    { "title": "UEFA Europa League", "key": "europa", "logo": "../app/assets/images/coupe-du-monde.png" },
     { "title": "UEFA Conference League", "key": "conference", "logo": "./assets/images/coupe-du-monde.png" },
     { "title": "UEFA Super Cup", "key": "supercup", "logo": "./assets/images/coupe-du-monde.png" },
     { "title": "FIFA World Cup", "key": "worldcup", "logo": "./assets/images/coupe-du-monde.png" },
