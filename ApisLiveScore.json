@@ -15,6 +15,12 @@
   ],
 
   "LEAGUES": {
+    "FIFA-World-Cup-2026": {
+      "key": "fifa-world-cup-2026",
+      "name": "FIFA World Cup 2026",
+      "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-du-monde.png",
+      "continent": "World_Tournaments"
+    },
     "ligue-des-champions-uefa": {
       "key": "ligue-des-champions-uefa",
       "name": "UEFA Champions League",
