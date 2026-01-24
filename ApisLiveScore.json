@@ -37,7 +37,7 @@
     "europe-uefa-youth-league": { "key": "europe-uefa-youth-league", "name": "UEFA Youth League", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/uefa-youth-league.png", "continent": "World_Tournaments" },
     "copa-america": { "key": "copa-america", "name": "Copa America", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/copa-america-6628d521864ad.png", "continent": "World_Tournaments" },
     "europe-euro-u19": { "key": "europe-euro-u19", "name": "UEFA U19 Championship", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/euro-u19.png", "continent": "World_Tournaments" },
-    "europe-eurou21": { "key": "europe-euro-u21", "name": "UEFA U21 Championship", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/euro-u21.png", "continent": "World_Tournaments" },
+    "europe-euro-u21": { "key": "europe-euro-u21", "name": "UEFA U21 Championship", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/euro-u21.png", "continent": "World_Tournaments" },
     "coupe-du-monde-u20": { "key": "coupe-du-monde-u20", "name": "FIFA U20 World Cup", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-du-monde-u20.png", "continent": "World_Tournaments" },
     "coupe-arabe": { "key": "coupe-arabe", "name": "Arab Cup", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-arabe.png", "continent": "World_Tournaments" },
     "coupe-feminine-uefa": { "key": "coupe-feminine-uefa", "name": "UEFA Women's Champions League", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-feminine-uefa.png", "continent": "World_Tournaments" },
@@ -59,6 +59,7 @@
     "bolivie-division-profesional": { "key": "bolivie-division-profesional", "name": "Bolivia - Division Profesional", "logo": "https://flagcdn.com/w160/bo.png", "continent": "south-america" },
     "mexique-liga": { "key": "mexique-liga", "name": "Mexico - Liga MX", "logo": "https://flagcdn.com/w160/mx.png", "continent": "north-america" },
     "islande-urvalsdeild": { "key": "islande-urvalsdeild", "name": "Iceland - Urvalsdeild", "logo": "https://flagcdn.com/w160/is.png", "continent": "europe" },
+    
     "colombie-liga-dimayor": { "key": "colombie-liga-dimayor", "name": "Colombia - Liga Dimayor", "logo": "https://flagcdn.com/w160/co.png", "continent": "south-america" },
     "slovaquie-superliga": { "key": "slovaquie-superliga", "name": "Slovakia - Superliga", "logo": "https://flagcdn.com/w160/sk.png", "continent": "europe" },
     "bulgarie-liga": { "key": "bulgarie-liga", "name": "Bulgaria - Liga", "logo": "https://flagcdn.com/w160/bg.png", "continent": "europe" },
@@ -89,7 +90,7 @@
     "europe-eliminatoires-cm-europe": { "key": "europe-eliminatoires-cm-europe", "name": "World Cup Qualifiers - Europe", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/euro.png", "continent": "World_Tournaments" },
     "europe-uefa-nations-league": { "key": "europe-uefa-nations-league", "name": "UEFA Nations League", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/uefa-nations-league.png", "continent": "World_Tournaments" },
     "amerique-du-sud-copa-america": { "key": "amerique-du-sud-copa-america", "name": "Copa America", "logo": "https://assets-fr.imgfoot.com/media/cache/60x60/copa-america-6628d521864ad.png", "continent": "World_Tournaments" },
-    "europe-euro-u21": { "key": "europe-euro-u21", "name": "UEFA U21 Championship", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/euro-u21.png", "continent": "World_Tournaments" },
+    "europe-euro-21": { "key": "europe-euro-u21", "name": "UEFA U21 Championship", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/euro-u21.png", "continent": "World_Tournaments" },
     "international-coupe-arabe": { "key": "international-coupe-arabe", "name": "Arab Cup", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-arabe.png", "continent": "World_Tournaments" },
     "europe-coupe-feminine-uefa": { "key": "europe-coupe-feminine-uefa", "name": "UEFA Women's Champions League", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-feminine-uefa.png", "continent": "World_Tournaments" },
     "belgique-division-1a": { "key": "belgique-division-1a", "name": "Belgium - Division 1A", "logo": "https://flagcdn.com/w160/be.png", "continent": "europe" },
@@ -113,5 +114,6 @@
     "algerie-ligue-1": { "key": "algerie-ligue-1", "name": "Algeria - Ligue 1", "logo": "https://flagcdn.com/w160/dz.png", "continent": "africa" },
     "islande-urvalsdeild-karla": { "key": "islande-urvalsdeild-karla", "name": "Iceland - Urvalsdeild", "logo": "https://flagcdn.com/w160/is.png", "continent": "europe" },
     "mexique-liga-mx": { "key": "mexique-liga-mx", "name": "Mexico - Liga MX", "logo": "https://flagcdn.com/w160/mx.png", "continent": "north-america" }
+
   }
 }
