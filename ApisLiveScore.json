@@ -1,7 +1,7 @@
 {
   "CONFIG": {
     "API_BASE_URL": "https://apifootball-si5v.onrender.com/match-today",
-    "STANDINGS_URL": "https://apifootball-si5v.onrender.com/standings/"
+    "STANDINGS_URL": "https://apifootball-si5v.onrender.com/standings/matchtoday"
   },
   "CONTINENTS": [
     { "title": "World Tournaments", "key": "World_Tournaments", "logo": "https://assets-fr.imgfoot.com/media/cache/150x150/coupe-du-monde.png" },
