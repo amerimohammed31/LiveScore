@@ -1,6 +1,6 @@
 {
   "CONFIG": {
-    "API_BASE_URL": "https://apifootball-si5v.onrender.com/match-today",
+    "API_BASE_URL": "https://raw.githubusercontent.com/amerimohammed31/football-api-data/main/match-today.json",
     "STANDINGS_URL": "https://apifootball-si5v.onrender.com/standings"
   },
   "CONTINENTS": [
