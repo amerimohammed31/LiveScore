@@ -1,6 +1,6 @@
 {
   "CONFIG": {
-    "API_BASE_URL": "https://apifootball-si5v.onrender.com/api/v1/match-today",
+    "API_BASE_URL": "https://www.footmercato.net/api/3.0/match/",
     "STANDINGS_URL": "https://apifootball-si5v.onrender.com/api/v1/standings"
   },
   "CONTINENTS": [
